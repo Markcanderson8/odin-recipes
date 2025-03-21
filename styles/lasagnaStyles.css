@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(186, 196, 206);
+}
+
+.title {
+    text-align: center;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.ingredients-title {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 30px;
+}
+
+.recipe-container {
+    text-align: center;
+}
+
+.recipe {
+    margin: 1rem;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(167, 137, 137);
+}
+
+.image {
+    width: 400px;
+    height: 300px;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.recipe-description {
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+.ingredients-container {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+    background-color: rgb(72, 185, 185);
+    width: 550px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 7px gray;
+}
+
+.list {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.list-item {
+    padding-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(167, 137, 137);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(14, 99, 155);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.directions-container {
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 4rem;
+    background-color: rgb(72, 185, 185);
+    width: 550px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 7px gray;
+    padding: 15px;
+    line-height: 1.2rem;
+}
+
+.directions-title {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 30px;
+}
+
+.directions-list-item {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 1rem;
+    background-color: rgb(174, 206, 206);
+    padding: 40px;
+}
